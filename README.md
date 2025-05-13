@@ -11,7 +11,7 @@
 - [👨‍💻 Autor](#-autor)  
 
 ## 📹 Demonstração  
-[clique aqui para acessar o vídeo](https://drive.google.com/file/d/1KGhIHI-ZHLxwJsvF2xodwm_9o59Hkp7k/view?usp=drive_link)
+[clique aqui para acessar o vídeo](https://youtu.be/NvOw4scISNc)
  
 Conteúdo do vídeo:  
 - Apresentação do projeto  
@@ -37,7 +37,7 @@ Desenvolver um sistema embarcado para controle remoto de iluminação residencia
 
 ## ⚙️ Compilação e Gravação  
 ```bash
-git clone https://github.com/Ronaldo8617/controle-iluminacao-inteligente
+git clone https://github.com/Ronaldo8617/SmartLights
 cd controle-iluminacao-inteligente
 mkdir build
 cd build
@@ -64,8 +64,8 @@ SmartLights/
 │   ├── ws2812b.pio.h        # Programa PIO da matriz WS2812B  
 │   ├── buzzer.c, h          # Inicialização e controle do buzzer   
 ├── CMakeLists.txt           # Arquivo de configuração da build  
-├── SmartLights.c
-├── Lwipopts.h             # Código principal (main)  
+├── SmartLights.c            # Código principal (main)
+├── Lwipopts.h               
 ├── README.md                # Documento de descrição do projeto  
 ```
 
