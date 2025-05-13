@@ -38,7 +38,7 @@ Desenvolver um sistema embarcado para controle remoto de iluminação residencia
 ## ⚙️ Compilação e Gravação  
 ```bash
 git clone https://github.com/Ronaldo8617/SmartLights
-cd controle-iluminacao-inteligente
+cd SmartLights
 mkdir build
 cd build
 cmake ..
