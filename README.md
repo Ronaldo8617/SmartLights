@@ -11,7 +11,9 @@
 - [👨‍💻 Autor](#-autor)  
 
 ## 📹 Demonstração  
-[clique aqui para acessar o vídeo](https://youtu.be/NvOw4scISNc)
+parte 1 -- [clique aqui para acessar o vídeo](https://youtu.be/NvOw4scISNc)
+
+parte 2 -- [clique aqui para acessar o vídeo](https://youtu.be/s1tggU4NTyY)
  
 Conteúdo do vídeo:  
 - Apresentação do projeto  
@@ -20,20 +22,24 @@ Conteúdo do vídeo:
 
 
 ## 🎯 Objetivo  
-Desenvolver um sistema embarcado para controle remoto de iluminação residencial utilizando o Raspberry Pi Pico W e uma matriz de LEDs WS2818B. O sistema permite o controle individual de zonas de iluminação (quadrantes) através de uma interface web acessível por qualquer dispositivo conectado à rede Wi-Fi.  
+Desenvolver um sistema embarcado para controle remoto de iluminação residencial utilizando o Raspberry Pi Pico W e uma matriz de LEDs WS2818B. O sistema permite o controle individual de zonas de iluminação (quadrantes) e a exibição do valor de potência consumida para o cliente através de uma interface web acessível por qualquer dispositivo conectado à rede Wi-Fi.  
 
 ## 🛠️ Funcionalidades Obrigatórias  
 ✅ Controle via interface web: Alterna os estados de 4 quadrantes da matriz de LEDs.  
 ✅ Conexão Wi-Fi: O Pico W conecta-se à rede e serve uma página web.  
 ✅ Atualização em tempo real: Mudanças nos quadrantes são refletidas instantaneamente na matriz.  
 ✅ Interface amigável: Botões para alternar cada quadrante diretamente na página HTML.  
-✅ Estado visual dos quadrantes: LEDs amarelos indicam quadrante ativo; Desligados, inativo.  
+✅ Estado visual dos quadrantes: LEDs amarelos indicam quadrante ativo; Desligados, inativo.
+
+✅ O valor de potência consumida é exibida no site HTML e no display OLED.  
+
 
 ## 📦 Componentes Utilizados  
 - Microcontrolador: Raspberry Pi Pico W  
 - Matriz de LEDs: WS2818B 5x5  
 - Conectividade: Wi-Fi via CYW43  
-- Ambiente de desenvolvimento: C/C++ com SDK do Pico e LWIP  
+- Ambiente de desenvolvimento: C/C++ com SDK do Pico e LWIP
+- Display OLED  
 
 ## ⚙️ Compilação e Gravação  
 ```bash
