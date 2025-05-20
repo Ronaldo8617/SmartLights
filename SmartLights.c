@@ -8,11 +8,11 @@
 #include "lwip/tcp.h"
 #include "lwip/netif.h"
 #include "lib/matrixws.h"
-#include "lib/display_init.h"  // inicializa SSD1306
+#include "lib/display_init.h" 
 
 // Configurações Wi-Fi
-#define WIFI_SSID     "RONALDO"
-#define WIFI_PASSWORD "36394578"
+#define WIFI_SSID     "XXXXX"
+#define WIFI_PASSWORD "XXXXX"
 
 // Configurações da Matriz
 #define BRILHO_PADRAO 30
@@ -21,7 +21,7 @@
 // Estados dos quadrantes
 static bool q1_on = false, q2_on = false, q3_on = false, q4_on = false;
 
-// Matriz base: cruz vermelha de brilho baixo
+// Matriz base: cruz branca de brilho baixo para separar os quadrantes
 static int base_mat[5][5][3] = {
     {{0,0,0},{0,0,0},{BRILHO_PADRAO,30,30},{0,0,0},{0,0,0}},
     {{0,0,0},{0,0,0},{BRILHO_PADRAO,30,30},{0,0,0},{0,0,0}},
